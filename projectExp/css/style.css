@@ -167,7 +167,7 @@ header ul li a span {
   font: 13px/1 "roboto";
   color: #474646;
   margin-bottom: 12px;
-  letter-spacing: 0.8px;
+  letter-spacing: 0.6px;
 }
 @media screen and (max-width: 1599px) {
   header {
