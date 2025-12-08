@@ -74,8 +74,9 @@ section article.profile {
   text-align: center;
 }
 section article.profile img {
-  width: 205px;
-  height: 245px;
+  width: 210px;
+  height: 200px;
+  object-fit: cover;
   border-radius: 50%;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -96,6 +97,7 @@ section article.profile h2 {
   color: #a9a9a9;
   margin-bottom: 30px;
 }
+
 section a.btnView {
   display: block;
   width: 180px;
@@ -184,9 +186,16 @@ body.member1 section article.profile img {
   box-shadow: 5px 15px 30px rgba(173, 216, 230, 0.8);
 }
 body.member1 section a.btnView {
-  background: linear-gradient(45deg, #4affff, #35e0f7);
+  background: linear-gradient(5deg, #4affff, #35e0f7);
   box-shadow: 5px 10px 20px rgba(0, 255, 255, 0.493);
 }
+body.member1 section a.btnView:hover {
+  background: linear-gradient(45deg, #a0ff9d, #55f5b2);
+  box-shadow: 5px 10px 20px rgba(33, 250, 105, 0.3);
+  transform: scale3d(1.05, 1.05, 1.05);
+  transition: all 1s ease;
+}
+
 /* member2 */
 body.member2 {
   background-color: #edffeb;
