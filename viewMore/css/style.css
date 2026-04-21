@@ -96,7 +96,9 @@ main section a {
   position: relative;
   opacity: 0.6;
   z-index: 1;
-  transition: opacity 1s, flex 1s;
+  transition:
+    opacity 1s,
+    flex 1s;
   cursor: pointer;
 }
 main section a::before {
